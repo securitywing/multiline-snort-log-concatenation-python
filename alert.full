@@ -1,0 +1,36 @@
+[**] [129:12:1] Consecutive TCP small segments exceeding threshold [**]
+[Classification: Potentially Bad Traffic] [Priority: 2]
+07/07-11:33:26.912004 82.110.102.199:55648 -> 10.0.0.23:443
+TCP TTL:40 TOS:0x0 ID:51552 IpLen:20 DgmLen:159 DF
+***AP*** Seq: 0xBEB96BF4  Ack: 0x1F647225  Win: 0x489  TcpLen: 20
+
+[**] [120:3:1] (http_inspect) NO CONTENT-LENGTH OR TRANSFER-ENCODING IN HTTP RESPONSE [**]
+[Classification: Unknown Traffic] [Priority: 3]
+07/07-11:36:34.043037 10.0.4.179:88 -> 10.0.0.23:55448
+TCP TTL:64 TOS:0x0 ID:27842 IpLen:20 DgmLen:355 DF
+***AP*** Seq: 0x322A79E5  Ack: 0xE5D807C4  Win: 0x3D80  TcpLen: 20
+
+[**] [120:3:1] (http_inspect) NO CONTENT-LENGTH OR TRANSFER-ENCODING IN HTTP RESPONSE [**]
+[Classification: Unknown Traffic] [Priority: 3]
+07/07-11:36:34.057052 10.0.4.179:88 -> 10.0.0.23:55450
+TCP TTL:64 TOS:0x0 ID:48596 IpLen:20 DgmLen:887 DF
+***AP*** Seq: 0x5431A8FD  Ack: 0x3F30E0E1  Win: 0x4000  TcpLen: 20
+
+[**] [120:3:1] (http_inspect) NO CONTENT-LENGTH OR TRANSFER-ENCODING IN HTTP RESPONSE [**]
+[Classification: Unknown Traffic] [Priority: 3]
+07/07-11:36:34.300633 10.0.4.179:88 -> 10.0.0.23:55452
+TCP TTL:64 TOS:0x0 ID:60787 IpLen:20 DgmLen:822 DF
+***AP*** Seq: 0x3B36FB56  Ack: 0xFDDB37B  Win: 0x3F80  TcpLen: 20
+
+[**] [129:15:1] Reset outside window [**]
+[Classification: Potentially Bad Traffic] [Priority: 2]
+07/07-11:38:11.815701 10.14.1.76:47636 -> 10.0.4.179:443
+TCP TTL:63 TOS:0x0 ID:0 IpLen:20 DgmLen:40 DF
+*****R** Seq: 0x975F2DD1  Ack: 0x0  Win: 0x0  TcpLen: 20
+
+[**] [129:15:1] Reset outside window [**]
+[Classification: Potentially Bad Traffic] [Priority: 2]
+07/07-11:38:11.815785 10.14.1.76:47636 -> 10.0.4.179:443
+TCP TTL:63 TOS:0x0 ID:0 IpLen:20 DgmLen:40 DF
+*****R** Seq: 0x975F2DD1  Ack: 0x0  Win: 0x0  TcpLen: 20
+
